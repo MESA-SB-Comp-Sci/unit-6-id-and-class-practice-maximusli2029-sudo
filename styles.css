@@ -39,14 +39,17 @@ html {
    and the text color to white */
 
    #main-title {
-      background-color: blue;
+      background-color: navy;
       color: white;
    }
 /* Task 5: Write an ID rule called "footer-text"
    It should change the text color to gray
    and the background color to black */
 
-
+   #footer-text {
+      background-color:black;
+      color:gray;
+   }
 /* ─────────────────────────────────────────────
    PART 2 — Semi Guided
    We give you the name but NOT what goes inside.
@@ -57,13 +60,22 @@ html {
    ───────────────────────────────────────────── */
 
 /* Task 6: Write a CLASS rule called "highlight" */
-
+.highlight {
+   color: black;
+   background-color: yellow;
+}
 
 /* Task 7: Write a CLASS rule called "list-style" */
-
+.list-style {
+   color: aqua;
+   background-color: violet;
+}
 
 /* Task 8: Write an ID rule called "page-heading" */
-
+#page-heading {
+   color:beige;
+   background-color: blueviolet;
+}
 
 /* ─────────────────────────────────────────────
    PART 3 — Open Ended
@@ -72,9 +84,19 @@ html {
    ───────────────────────────────────────────── */
 
 /* Your class rule 1 */
-
+.red-text {
+   color:red;
+   background-color: green;
+}
 
 /* Your class rule 2 */
-
+.green-text {
+   color:green;
+   background-color: red;
+}
 
 /* Your ID rule */
+#footer-heading {
+   color: aquamarine;
+   background-color: rgb(150, 75, 0);
+}
